@@ -61,4 +61,4 @@ build_and_push_to_docker_hub:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/apiyamdb:latest
