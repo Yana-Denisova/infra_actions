@@ -46,6 +46,8 @@ jobs:
 # Сразу после них добавьте новую задачу: деплой приложения
 
 name: Push Docker image to Docker Hub
+
+jobs:
     runs-on: ubuntu-latest
     needs: tests
     steps:
